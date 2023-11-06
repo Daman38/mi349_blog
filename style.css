@@ -1,0 +1,114 @@
+body{
+    background-color: #28397F;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+article{
+    background-color: #6699CC;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+#blog {
+    display: flex;
+}
+
+h1 {
+    color: #FCAC19;
+}
+
+.maps h2{
+    text-align: center;
+    color: #FCAC19;
+}
+
+.major h2{
+    text-align: center;
+    color: #FCAC19;
+}
+
+.maps p{
+    padding: 30px;
+    float: right;
+}
+
+.major p{
+    padding: 30px;
+    float: right;
+}
+
+.maps img{
+    border-radius: 10px;
+    float: left;
+    height: 350px;
+    width: 900px;
+}
+
+.major img{
+    border-radius: 10px;
+    float: right;
+}
+
+.major h3{
+    position: absolute;
+    top: 310px;
+    right: 460px;
+}
+
+.major table{
+    position: absolute;
+    top: 360px;
+    right: 470px;
+}
+
+.caption {
+    position: absolute;
+    top: 950px;
+}
+
+.author{
+    text-align: right;
+}
+
+#newsletter {
+    background-color: #6699CC;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#about p{
+    background-color: #6699CC;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    float: right;
+}
+
+#about h2{
+    color: #FCAC19;
+    text-align: center;
+    padding: 30px;
+}
+
+#about img{
+    border-radius: 5px;
+}
+
+#about ul{
+    text-align: center;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    background-color: #6699CC;
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 4;
+}
